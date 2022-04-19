@@ -1,0 +1,55 @@
+#main{
+    padding: 10px;
+}
+
+#wrapper{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 1000px;
+    height: 350px;
+}
+
+h1{
+    font-size: 26px;
+    color: dimgray;
+}
+
+#imageCard{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 1px;
+    /* border: 1px solid green; */
+    width: 25%;
+    height: 80%;
+}
+
+#image{
+    border-radius: 10px;
+    width: 100%;
+}
+
+#heading{
+    padding: 2px 5px 5px 15px;
+    font-size: 100%;
+    font-weight: bold;
+    color: dimgray;
+}
+
+#text{
+    margin-bottom: 40px;
+    padding: 2px 5px 5px 15px;
+    font-size: 80%;
+    height: 50px;
+    color: dimgray;
+}
+
+#readMore{
+    /* border: 1px solid blue; */
+    padding: 2px 15px 5px 20px;
+    height: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: deepskyblue;
+}
